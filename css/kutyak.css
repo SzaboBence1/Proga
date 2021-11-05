@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	background-color: #2b2a2a;
+    color: rgb(207, 207, 207);
+}
+* {
+	box-sizing: border-box
+}
+a {
+	text-decoration: none;
+    color: rgb(207, 207, 207);
+}
+
+img {
+	max-width: 100%
+}
+
+h1 {
+	margin: 0 0 40px 0;
+	padding: 0;
+	font-weight: 400;
+	text-align: center;
+    font-size: 70px;
+}
+h3{
+    font-size: 40px;
+    text-align: center; 
+  }
+
+.egesz {
+	max-width: 1200px;
+	margin: 0 auto
+}
+
+header {
+	width: 78.5vw;
+	top: 0;
+	overflow: hidden;
+	position: fixed;
+	font-size: 60px;
+	text-align: center;
+	border: rgb(207, 207, 207) solid 2px; 
+    background-color: black;
+	padding: 20px 0;
+    margin-left: 200px;	
+}
+
+.header-felso{
+	margin-bottom: 100px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.header-also{
+    border: rgb(207, 207, 207) solid 1px; 
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.header-also a:hover {
+	text-decoration: underline 2px;
+}
+a:hover {
+	text-decoration: underline 2px;
+}
+
+footer {
+	padding: 20px;
+	margin: 20px 0
+}
+.content{
+	margin-top: 300px;
+}
+.d {
+	text-align: center;
+	flex: 1;
+	min-width: 250px;
+	background: black ;
+    color: rgb(207, 207, 207);
+	border: 1px solid #ddd;
+	padding: 0 0 10px 0;
+	margin: 0px 200px 20px 200px
+}
+
+p {
+	font-size: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
